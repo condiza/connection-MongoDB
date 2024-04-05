@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon src/index.js --exec babel-node",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src -d proyecto && ncp src/views proyecto/views && ncp src/frontend proyecto/frontend",
+    "build": "babel src -d proyecto && ncp src/views proyecto/public/views && ncp src/frontend proyecto/public/frontend",
     "start": "node proyecto/index.js"
   },
   "keywords": [],
